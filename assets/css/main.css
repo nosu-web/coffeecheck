@@ -1,0 +1,48 @@
+.bg-coffee {
+    background-color: #451F00;
+}
+
+.bg-latte {
+    background-color: #B19D8C;
+}
+
+.bg-milk {
+    background-color: #f1e8d5;
+}
+
+#mapid {
+    height: calc(100vh - 56px);
+}
+
+.toggle-btn {
+    font-size: xx-large;
+    margin-left: -279px;
+    border-radius: 7px 0px 0px 7px;
+    z-index: 1000;
+}
+
+.toggle-btn-closed {
+    margin-left: -29px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 250px;
+    margin-top: 56px;
+    height: calc(100vh - 56px);
+    top: 0;
+    right: 0;
+    z-index: 1001;
+}
+
+@media (max-width: 576px) {
+    .toggle-btn {
+        margin-left: -25px;
+    }
+    .toggle-btn-closed {
+        margin-left: -275px;
+    }
+    .sidebar {
+        display: none;
+    }
+}
