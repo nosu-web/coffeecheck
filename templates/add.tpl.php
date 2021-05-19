@@ -1,15 +1,11 @@
 <div class="container my-5">
+    <h1>Новая точка</h1>
     <form class="form-add mx-auto" action="add.php" method="post">
-        <?=$formError?>
+        <?= $formError ?>
         <div class="mb-3">
             <label for="polygonName" class="form-label">Название</label>
             <input type="text" name="polygonName" class="form-control" id="polygonName">
-        </div>
-        <div class="mb-3">
-            <label for="polygonDensity" class="form-label">Параметр</label>
-            <br>
-            <input type="range" name="polygonDensity" id="polygonDensity">
-        </div>
+        </div>git p
         <button type="submit" name="addSubmit" class="btn btn-success">Добавить</button>
     </form>
 </div>
