@@ -1,6 +1,6 @@
-$( ".toggle-btn" ).click(function() {
-    $( ".toggle-btn" ).toggleClass( "toggle-btn-closed" );
-    $( ".sidebar" ).toggle();
+$(".toggle-btn").click(function () {
+    $(".toggle-btn").toggleClass("toggle-btn-closed");
+    $(".sidebar").toggle();
 });
 
 var mymap = L.map('mapid').setView([51.505, -0.09], 13);
